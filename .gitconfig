@@ -28,7 +28,8 @@
 	ca = !git commit-all
 	unstage = !git reset HEAD
 	undo-commit = !git reset --soft HEAD^
-	rso = remote show origin
+	rso = !git remote show origin
+	prune = !git fetch --prune
 [core]
 	autocrlf = input
 [advice]
