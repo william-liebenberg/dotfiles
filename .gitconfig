@@ -26,6 +26,9 @@
 	l = !git latest
 	commit-all = !git add -A && git commit -m
 	ca = !git commit-all
+	unstage = !git reset HEAD
+	undo-commit = !git reset --soft HEAD^
+	rso = remote show origin
 [core]
 	autocrlf = input
 [advice]
